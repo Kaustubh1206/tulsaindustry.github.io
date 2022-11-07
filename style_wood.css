@@ -438,5 +438,20 @@ text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
         display: flex;
 
     }
+    
+    #desc h2 {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    width: 350px;
+    height: 51px;
+    padding: 10px 20px;
+    background: #333333;
+    box-shadow: -10px 10px 0px #4c76e2;
+}
 
 }
