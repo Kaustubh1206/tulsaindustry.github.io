@@ -152,7 +152,9 @@ color: rgba(0, 0, 0, 0.52);
     left: 32px;
     transition: 0.5s ease;
 }   
-
+#header img{
+    width: 60px;
+}
 /* -------hero------- */
 #head{
     padding: 40px;
@@ -385,4 +387,120 @@ text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     opacity: 0.7;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+    
+    
+@media (max-width:768px) {
+    #navbar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        padding: 30px;
+        background-color: #eeeeee;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.06) ;
+        transition: 0.3s ease;
+    
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin: 25px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+
+    #mobile i{
+        color: #333333;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    #close{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: rgba(0, 0, 0, 0.52);
+        font-size: 20px;
+        display: flex;
+
+    }
+
+}
+/* --------mobile----- */
+
+@media (max-width:425px) {
+    #header img{
+        width: 40px;
+    }
+    #header h2{
+        text-decoration: none;
+        font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.41);
+    }
+    #navbar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        padding: 10px;
+        background-color: #eeeeee;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.06) ;
+        transition: 0.3s ease;
+    
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin: 25px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+
+    #mobile i{
+        color: #333333;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    #close{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: rgba(0, 0, 0, 0.52);
+        font-size: 20px;
+        display: flex;
+
+    }
+
 }
