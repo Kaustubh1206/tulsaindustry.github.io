@@ -156,6 +156,12 @@ color: rgba(0, 0, 0, 0.52);
     left: 32px;
     transition: 0.5s ease;
 }   
+#mobile{
+    display: none;
+}
+#close{
+    display: none;
+}
 
 /* ------hero------ */
 #hero{
